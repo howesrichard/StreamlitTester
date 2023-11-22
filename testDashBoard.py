@@ -1,7 +1,7 @@
 import streamlit as st
 import random
 import pandas as pd
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 st.markdown('# This is the test dashboard')
 
@@ -25,9 +25,9 @@ names = ['a','b','c','d','e','f','g','h','i','j']
 numbers = [random.randint(1,mySliderVal) for i in range(10)]
 
 # plot a bar chart with names on x-axis and values on y-axis
-import matplotlib.pyplot as plt
-plt.bar(names,numbers)
-st.pyplot(plt)# show the plot in the streamlit app
+#import matplotlib.pyplot as plt
+#plt.bar(names,numbers)
+#st.pyplot(plt)# show the plot in the streamlit app
 
 # create a streamlit form to get user input
 with st.sidebar.form(key='myForm'):
